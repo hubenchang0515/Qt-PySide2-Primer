@@ -13,6 +13,6 @@ if __name__ == "__main__":
         "layout.qml"
     ]
     app = QGuiApplication(sys.argv)
-    engine = QQmlApplicationEngine(choice(qmlList))
+    engine = QQmlApplicationEngine(choice(qmlList)) # 随机加载一个qml
 
     sys.exit(app.exec_())
