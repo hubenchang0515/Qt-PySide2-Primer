@@ -11,11 +11,11 @@ Window {
     Rectangle {
         anchors.fill: parent
         color: "black"
+    }
 
-        Text {
-            anchors.centerIn: parent
-            color: "white"
-            text: "Hello World"
-        }
+    Text {
+        anchors.centerIn: parent
+        color: "white"
+        text: "Hello World"
     }
 }
