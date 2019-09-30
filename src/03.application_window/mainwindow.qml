@@ -1,11 +1,3 @@
-# 基本UI结构
-程序的UI可以按照设计者的喜好任意进行设计，Qt提供了一种最简单实用的UI结构。  
-
-![UI](../image/03.application_window/structure.png)
-
-通过`QtQuick.Controls`模块中的`ApplicationWindow`元素即可创建一个这样的窗口 :  
-
-```QML
 import QtQuick 2.13
 import QtQuick.Controls 2.5
 
@@ -26,8 +18,8 @@ ApplicationWindow {
 
         Menu {
             title: qsTr("编辑(&E)")
-            MenuItem { text: qsTr("复制") }
-            MenuItem { text: qsTr("粘贴") }
+            MenuItem { text: qsTr("复制(&C)") }
+            MenuItem { text: qsTr("粘贴(&P)") }
         }
     }
 
@@ -73,20 +65,3 @@ ApplicationWindow {
         }
     }
 }
-```
-* `ApplicationWindow`的`menuBar`、`header`、`footer`属性的元素分别对应图中位置。
-* 其他所有子元素则属于图中的`Content`位置。
-* `Menu`和`MenuItem`元素可以在文本中使用`&`来设置快捷键，例如`&F`表示快捷键为`Alt + F`。
-
-![运行结果](../image/03.application_window/application.png)
-
-## 参考 :   
-* QML
-  * [ApplicationWindow](https://doc.qt.io/qt-5/qml-qtquick-controls2-applicationwindow.html)
-  * [MenuBar](https://doc.qt.io/qt-5/qml-qtquick-controls2-menubar.html)
-  * [Menu](https://doc.qt.io/qt-5/qml-qtquick-controls2-menu.html)
-  * [MenuItem](https://doc.qt.io/qt-5/qml-qtquick-controls2-menuitem.html)
-  * [ToolBar](https://doc.qt.io/qt-5/qml-qtquick-controls2-toolbar.html)
-  * [ToolButton](https://doc.qt.io/qt-5/qml-qtquick-controls2-toolbutton.html)
-  * [ScrollView](https://doc.qt.io/qt-5/qml-qtquick-controls2-scrollview.html)
-  * [TextArea](https://doc.qt.io/qt-5/qml-qtquick-controls2-textarea.html)
