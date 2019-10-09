@@ -1,6 +1,10 @@
 # Summary
 * [README](README.md)  
-* [安装PySide2](./note/00.install_pyside2.md)
-* [加载QML](./note/01.qml_app_engine.md)
-* [QML布局](./note/02.qml_layout.md)
-* [基本UI结构](./note/03.application_window.md)
+* 基础知识
+  * [安装PySide2](./note/basic/00.install_pyside2.md)
+* Widgets
+  * ...
+* QML
+  * [加载QML](./note/qml/00.qml_app_engine.md)
+  * [QML布局](./note/qml/01.qml_layout.md)
+  * [基本UI结构](./note/qml/02.application_window.md)
