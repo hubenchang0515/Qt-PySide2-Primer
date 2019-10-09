@@ -2,9 +2,12 @@
 * [README](README.md)  
 * 基础知识
   * [安装PySide2](./note/basic/00.install_pyside2.md)
+  * [QObject和对象树](./note/basic/01.object_tree.md)
 * Widgets
-  * ...
+  * 施工中
 * QML
   * [加载QML](./note/qml/00.qml_app_engine.md)
   * [QML布局](./note/qml/01.qml_layout.md)
   * [基本UI结构](./note/qml/02.application_window.md)
+* 公共知识
+  * 施工中
