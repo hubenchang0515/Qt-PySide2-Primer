@@ -3,6 +3,7 @@
 * 基础知识
   * [安装PySide2](./note/basic/00.install_pyside2.md)
   * [QObject和对象树](./note/basic/01.object_tree.md)
+  * [信号与槽](./note/basic/02.signal_and_slot.md)
 * Widgets
   * 施工中
 * QML
