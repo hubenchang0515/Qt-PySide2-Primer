@@ -4,9 +4,10 @@
   * [安装PySide2](./note/basic/00.install_pyside2.md)
   * [QObject和对象树](./note/basic/01.object_tree.md)
   * [Qt的信号槽机制](./note/basic/02.signal_and_slot.md)
-* Widgets
+  * [QtWidgets和QML/QtQuick简介](./note/basic/03.widgets_and_qml.md)
+* QtWidgets
   * 施工中
-* QML
+* QML/QtQuick
   * [加载QML](./note/qml/00.qml_app_engine.md)
   * [QML布局](./note/qml/01.qml_layout.md)
   * [在QML中使用信号槽机制](./note/qml/02.qml_signal_and_slot.md)
