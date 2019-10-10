@@ -1,6 +1,6 @@
 # Summary
 * [README](README.md)  
-* 基础知识
+* 前置任务
   * [安装PySide2](./note/basic/00.install_pyside2.md)
   * [QObject和对象树](./note/basic/01.object_tree.md)
   * [Qt的信号槽机制](./note/basic/02.signal_and_slot.md)
@@ -12,5 +12,5 @@
   * [在QML中使用信号槽机制](./note/qml/02.qml_signal_and_slot.md)
   * [定义属性和方法](./note/qml/03.property_and_method.md)
   * [应用主窗口基本UI结构](./note/qml/04.application_window.md)
-* 公共知识
+* 登神长阶
   * 施工中
