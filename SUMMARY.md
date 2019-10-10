@@ -10,7 +10,7 @@
   * [加载QML](./note/qml/00.qml_app_engine.md)
   * [QML布局](./note/qml/01.qml_layout.md)
   * [在QML中使用信号槽机制](./note/qml/02.qml_signal_and_slot.md)
-  * [在元素中添加额外的属性](./note/qml/03.property.md)
+  * [定义属性和方法](./note/qml/03.property_and_method.md)
   * [应用主窗口基本UI结构](./note/qml/04.application_window.md)
 * 公共知识
   * 施工中

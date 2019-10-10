@@ -4,6 +4,6 @@ from PySide2.QtQml import QQmlApplicationEngine
 
 if __name__ == "__main__":
     app = QGuiApplication(sys.argv)
-    engine = QQmlApplicationEngine("mainwindow.qml")
+    engine = QQmlApplicationEngine("method.qml")
 
     sys.exit(app.exec_())
