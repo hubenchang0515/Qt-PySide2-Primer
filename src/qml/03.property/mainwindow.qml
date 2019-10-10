@@ -14,7 +14,7 @@ Window {
         anchors.fill: parent
 
         Text {
-            // 定义一个整数类型的熟悉，名为number，值为0
+            // 定义一个整数类型的属性，名为number，值为0
             property int number : 0
             // 将显示的内容设为number
             text: "clicked : " + number
