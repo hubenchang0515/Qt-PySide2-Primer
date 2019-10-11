@@ -1,4 +1,4 @@
-import sys
+import sys,os
 from PySide2 import QtCore
 from PySide2.QtCore import QObject, QUrl
 from PySide2.QtGui import QGuiApplication
@@ -33,6 +33,8 @@ if __name__ == "__main__":
     engine.rootContext().setContextProperty("file", myQmlFile)
 
     # 然后再加载QML文件
-    engine.load("mainwindow.qml")
+    qmlFile = "mainwindow.qml"
+    qmlPath = os.path.abspath(os.path.join(os.path.dirname(__file__), qmlFile))
+    engine.load(qmlPath)
 
     sys.exit(app.exec_())
