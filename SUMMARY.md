@@ -14,5 +14,6 @@
   * [定义属性和方法](./note/qml/03.property_and_method.md)
   * [应用主窗口基本UI结构](./note/qml/04.application_window.md)
   * [使用Action](./note/qml/05.action.md)
+  * [在QML中使用Python对象](./note/qml/06.python_object.md)
 * 登神长阶
   * 施工中
