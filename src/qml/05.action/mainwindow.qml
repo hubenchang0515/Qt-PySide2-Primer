@@ -73,6 +73,7 @@ ApplicationWindow {
 
     // 其余对象属于Content
     ScrollView { 
+        id: scrollView
         anchors.fill: parent
         focus: true
 
@@ -84,6 +85,27 @@ ApplicationWindow {
             focus: true  // 获取焦点(即键盘输入状态)
             persistentSelection: true  // 丢失焦点时保留选取
             selectByMouse: true  // 允许通过鼠标选取
+
+            // text发生改变时根据长宽判断是否需要显示滚动条
+            onTextChanged : {
+                if(editor.height > scrollView.height)
+                {
+                    scrollView.ScrollBar.vertical.policy = ScrollBar.AlwaysOn
+                }
+                else
+                {
+                    scrollView.ScrollBar.vertical.policy = ScrollBar.AlwaysOff
+                }
+
+                if(editor.width > scrollView.width)
+                {
+                    scrollView.ScrollBar.horizontal.policy = ScrollBar.AlwaysOn
+                }
+                else
+                {
+                    scrollView.ScrollBar.horizontal.policy = ScrollBar.AlwaysOff
+                }
+            }
         }
     }
 }
