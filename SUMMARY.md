@@ -5,7 +5,7 @@
 * [安装PySide2](./note/basic/00.install_pyside2.md)
 * [QObject和对象树](./note/basic/01.object_tree.md)
 * [Qt的信号槽机制](./note/basic/02.signal_and_slot.md)
-* [QtWidgets和QML/QtQuick简介](./note/basic/03.widgets_and_qml.md)
+* [Qt Widgets和QML/Qt Quick简介](./note/basic/03.widgets_and_qml.md)
 
 ### Qt Widgets
 * 施工中
