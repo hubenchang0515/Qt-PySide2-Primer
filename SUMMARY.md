@@ -19,6 +19,7 @@
 * [使用Action](./note/qml/05.action.md)
 * [在QML中使用Python对象](./note/qml/06.python_object.md)
 * [使用Canvas绘图](./note/qml/07.canvas.md)
+* [创建自定义的类](./note/qml/08.class.md)
 
 ### After
 * 施工中
