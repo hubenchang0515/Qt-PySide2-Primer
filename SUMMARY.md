@@ -18,6 +18,7 @@
 * [应用主窗口基本UI结构](./note/qml/04.application_window.md)
 * [使用Action](./note/qml/05.action.md)
 * [在QML中使用Python对象](./note/qml/06.python_object.md)
+* [使用Canvas绘图](./note/qml/07.canvas.md)
 
 ### After
 * 施工中
