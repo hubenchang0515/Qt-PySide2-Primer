@@ -21,6 +21,7 @@
 * [使用Canvas绘图](./note/qml/07.canvas.md)
 * [创建自定义的类](./note/qml/08.class.md)
 * [创建和加载自定义组件](./note/qml/09.component_and_loader.md)
+* [使用Loader变更页面](./note/qml/10.loader_and_page.md)
 
 ### After
 * 施工中
